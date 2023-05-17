@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "room"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CustomerName": {
+      "type": "text"
+    },
+    "RoomID": {
+      "type": "string"
+    },
+    "CustomerEmail": {
+      "type": "string"
+    },
+    "CustomerPhone": {
+      "type": "string"
+    },
+    "RoomPrice": {
+      "type": "integer"
+    },
+    "PaymentStatus": {
+      "type": "string"
+    }
+  }
+}
